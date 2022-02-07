@@ -28,7 +28,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 	private ApiInfo metaData() {
 		return new ApiInfoBuilder()
 		.title("Api de Calculo de Frete")
-		.description("\"Spring Boot REST API\"")
+		.description("Api com o objetivo de fazer o processamento do calculo e previsão dos fretes da empresa SigaBem")
 		.version("1.0.0")
 		.license("Apache License Version 2.0")
 		.licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")

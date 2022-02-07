@@ -2,17 +2,13 @@ package br.com.controller.form;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Length;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import br.com.controller.dto.FreteDTO;
 import br.com.model.Frete;
-import io.swagger.annotations.ApiModel;
 
 public class FreteForm {
 	@NotBlank@Length(max = 50, min = 10)@Pattern(regexp="^[a-zA-Z\\s]*$",message = "Somente letras")

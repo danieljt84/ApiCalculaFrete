@@ -4,9 +4,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import br.com.controller.form.FreteForm;
 import br.com.model.Frete;
 
 public class FreteDTO {
